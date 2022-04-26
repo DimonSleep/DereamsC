@@ -76,19 +76,25 @@
     <!-- END nav -->
 
     <section class="home-slider owl-carousel">
-      <div class="slider-item" >
-		  <p></p>
-		<video autoplay muted loop id="myVideo">
+      <div class="slider-item " >
+		<div class="video">
+		<video autoplay muted loop >
 			<source src="images/bg.mp4" type="video/mp4">
 		  </video>
+		 
+		</div>
+      
 		  <style>
-			  #myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+			  video {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
+
+
 		  </style>
       	<div class="overlay"></div>
         <div class="container">
