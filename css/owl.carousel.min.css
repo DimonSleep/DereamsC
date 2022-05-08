@@ -1,8 +1,4 @@
-/**
- * Owl Carousel v2.3.0
- * Copyright 2013-2017 David Deutsch
- * Licensed under  ()
- */
+
 .owl-carousel,.owl-carousel
  .owl-item
  {-webkit-tap-highlight-color:transparent;
@@ -68,7 +64,10 @@ position:relative}
                                                         transition:opacity .4s ease}.owl-carousel .owl-item img.owl-lazy{-webkit-transform-style:preserve-3d;
                                                             transform-style:preserve-3d}.owl-carousel .owl-video-wrapper{position:relative;
                                                                 height:100%;
-                                                                background:#000}.owl-carousel .owl-video-play-icon{position:absolute;
+                                                                background:#000}
+                                                                .owl-carousel 
+                                                                .owl-video-play-icon{
+                                                                    position:absolute;
                                                                     height:80px;
                                                                     width:80px;
                                                                     left:50%;
